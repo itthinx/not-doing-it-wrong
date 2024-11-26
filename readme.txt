@@ -16,7 +16,7 @@ This plugin is intended for developers to use as a tool to find issues.
 
 It is ideally deployed temporarily as a MUST-USE plugin until issues have been identified.
 
-A WordPress plugin as a last resort to issues when `_doing_it_wrong()` is too eager and we want to find out what is happening.
+This can be used to identify issues when `_doing_it_wrong()` is too eager and we want to find out what is happening.
 
 Avoids triggering a user error for calls to `_doing_it_wrong()` and gathers information which is logged at shutdown.
 
