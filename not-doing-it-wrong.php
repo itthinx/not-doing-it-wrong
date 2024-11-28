@@ -94,6 +94,10 @@ class Not_Doing_It_Wrong {
 
 	public static function shutdown() {
 
+		if ( count( self::$archive ) === 0 ) {
+			return;
+		}
+
 		error_log( '' );
 		error_log( '==========================' );
 		error_log( '= Not Doing it Wrong ... =' );
